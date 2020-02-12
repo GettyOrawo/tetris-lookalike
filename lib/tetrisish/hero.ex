@@ -5,6 +5,7 @@ defmodule Tetrisish.Hero do
     state: "alive"
   ]
 
+  #create new struct
   def new do
     __struct__()
   end
